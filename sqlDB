@@ -1,0 +1,14 @@
+
+
+CREATE TABLE grocerydb (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  item_name VARCHAR(255) NOT NULL,
+  item_quantity INT NOT NULL,
+  item_status ENUM('PENDING', 'BOUGHT', 'NOT AVAILABLE') NOT NULL,
+  date DATE NOT NULL
+);
+
+
+
+
+
